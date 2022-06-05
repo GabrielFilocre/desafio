@@ -1,0 +1,27 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielFilocre/desafio.git"
+  },
+  "author": "Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielFilocre/desafio/issues"
+  },
+  "homepage": "https://github.com/GabrielFilocre/desafio#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  },
+  "type": "module"
+}
